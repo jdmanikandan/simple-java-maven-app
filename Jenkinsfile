@@ -1,11 +1,3 @@
-Jenkinsfile:
-
-        stage('Deliver') {
-            steps {
-                sh './jenkins/scripts/deliver.sh'
-            }
-        }
-
 pipeline {
     agent {
         docker {
