@@ -5,7 +5,6 @@ Jenkinsfile:
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-and add a skipStagesAfterUnstable option so that you end up with:
 
 pipeline {
     agent {
